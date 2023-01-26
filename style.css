@@ -1,0 +1,875 @@
+@font-face {
+    font-family: poppins;
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+body {
+    margin-top: 40px;
+    height: 100vh;
+    /* background-repeat: no-repeat; */
+    background-position: top center;
+    background-size: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.my-nav-1 {
+    background-color: #1c1832 !important;
+    height: 100px;
+    border-radius: 15px;
+}
+
+.logo-1 {
+    margin-left: 30px;
+}
+
+.navbar-nav {
+    margin-left: 80px;
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.2rem;
+    font-family: poppins;
+    transition: 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #E039FD;
+}
+
+.se-bar {
+    width: 25%;
+    margin-right: 5%;
+    background: #131129;
+    position: sticky;
+    color: white;
+    border: 2px solid #9d7da3;
+    background: #2F294A;
+    border-radius: 5px;
+}
+
+.se-bar::placeholder {
+    color: white;
+    font-family: poppins;
+    padding-left: 5px;
+}
+
+.my-btn-1 {
+    position: relative;
+    font-family: poppins;
+    color: white;
+    width: 140px;
+    height: 50px;
+    border-radius: 20px;
+    margin-right: 30px;
+    background: linear-gradient(79deg, rgba(99, 69, 237, 1) 0%, rgba(224, 57, 253, 1) 100%);
+}
+
+.dotted-line {
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    border-radius: 15px;
+    border: 2px dotted white;
+    margin-top: -31.7px;
+    margin-left: -8px;
+}
+
+.navbar-toggler-icon {
+    border: 2px solid white !important;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.head-arr {
+    margin-top: 90px;
+}
+
+.top-head {
+    font-family: poppins;
+    font-size: 3.9rem;
+    font-weight: 600;
+    color: white;
+}
+
+.my-para {
+    color: white;
+    font-family: poppins;
+}
+
+.h5-head {
+    color: white;
+    font-family: poppins;
+}
+
+.arrow-clr {
+    padding: 9px;
+}
+
+.cus-head {
+    color: white;
+    font-family: poppins;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.thunder-img {
+    margin-left: 12px;
+}
+
+.card-head {
+    display: flex;
+}
+
+.my-cards {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 3px;
+    margin-top: 8px;
+}
+
+.card1 {
+    width: 260px;
+    height: 130px;
+    background: #1d1933;
+    border: 3px solid #9d7da3;
+    border-radius: 12px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: 0.5s ease;
+}
+
+.card1:hover {
+    border: 3px solid #E039FD;
+    transition: .5s ease-in;
+}
+
+.alan_pic {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.alan_walker {
+    color: white;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-top: 35px;
+    margin-left: 10px;
+}
+
+.pic-head-arr {
+    display: flex;
+}
+
+.num_arr {
+    color: white;
+    margin-top: -36px;
+    margin-left: 104px;
+}
+
+.icn-clr {
+    font-size: 1rem;
+    border: 1px solid #fff;
+    position: absolute;
+    padding: 7px;
+    margin-left: 105px;
+    margin-top: -15px;
+    transition: 0.4s ease;
+}
+
+.icn-clr-1 {
+    font-size: 1rem;
+    border: 1px solid #fff;
+    position: absolute;
+    padding: 7px;
+    margin-left: 150px;
+    margin-top: -15px;
+}
+
+.icn-clr:hover {
+    color: #E039FD;
+    border-color: #E039FD;
+    transition: 0.5s ease;
+}
+
+.icn-clr-1:hover {
+    color: #E039FD;
+    border-color: #E039FD;
+    transition: 0.5s ease;
+}
+
+
+/* top collection started */
+
+.content-wrapper {
+    background: url(./images/070b24.png);
+    background-size: auto;
+    z-index: 1;
+    width: 100%;
+    position: relative;
+}
+
+.top-collect-head {
+    position: absolute;
+    margin-top: 110px;
+    color: white;
+    font-family: poppins;
+    font-weight: 600;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.top-cards {
+    width: 260px;
+    height: 400px;
+    background: #1d1933;
+    margin-top: 190px;
+    border-radius: 10px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.top-bar-1 {
+    display: flex;
+    margin-top: 15px;
+}
+
+.fnt-clr {
+    color: white;
+    padding-left: 8px;
+    margin-top: 7px;
+    font-family: poppins;
+}
+
+.three-dots {
+    margin-top: 8px;
+    padding-left: 10px;
+    margin-left: 80px;
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.cntr-pic-arr {
+    margin-top: 15px;
+    margin-left: 8px;
+    border-radius: 15px;
+}
+
+.current-bid {
+    color: white;
+    display: flex;
+    margin-left: 15px;
+    font-family: poppins;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 12px;
+    padding-top: 15px;
+    border-bottom: 2px solid #262142;
+}
+
+.eth-5 {
+    color: #E039FD;
+    padding-left: 60px;
+}
+
+.horiz-line {
+    height: 10px;
+    width: 50px;
+    color: #fcfcfc;
+    border-color: white;
+}
+
+.card-btn {
+    position: relative;
+    font-family: poppins;
+    color: white;
+    width: 140px;
+    height: 50px;
+    border-radius: 20px;
+    margin-right: 30px;
+    margin-top: 17px;
+    background: linear-gradient(79deg, rgba(99, 69, 237, 1) 0%, rgba(224, 57, 253, 1) 100%);
+}
+
+.dotted-line-card-btn {
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    border-radius: 15px;
+    border: 2px dotted white;
+    margin-top: -32px;
+    margin-left: -3px;
+}
+
+.dil-color {
+    color: #9d7da3;
+    display: flex;
+    margin-top: 35px;
+}
+
+.dil-color:hover {
+    color: #E039FD;
+    transition: 0.3s ease;
+}
+
+.dil-icon {
+    margin-left: 20px;
+}
+
+.num-56 {
+    color: white;
+    font-family: poppins;
+    padding-left: 6px;
+}
+
+.btn-dil-arr {
+    display: flex;
+}
+
+.cards-arr {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card-arrange {
+    margin-top: -155px;
+}
+
+
+/* top selection ended  */
+
+
+/* festures section started */
+
+.content-wrapper2 {
+    /* background-color: #131129; */
+    /* background-image: url(./images/bg\ image2.png); */
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.my-feat {
+    color: white;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.health-cards {
+    width: 350px;
+    height: 360px;
+    background: #1d1933;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.anas {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* .feat-card-icon {
+    display: flex;
+} */
+
+.ertg-1 {
+    display: flex;
+}
+
+.fnt-desing {
+    color: white;
+    margin-top: 30px;
+    margin-left: 17px;
+    font-family: poppins;
+}
+
+.num-89 {
+    color: white;
+    margin-left: 5px;
+    margin-top: 35px;
+    border-radius: 5px;
+    color: #9d7da3;
+}
+
+.dil-89 {
+    color: #9d7da3;
+    margin-top: 38px;
+    font-size: 1.3rem;
+}
+
+.dil-89:hover {
+    color: #E039FD;
+    transition: 0.4s ease;
+    font-size: 1.3rem;
+}
+
+.dil-arr {
+    display: flex;
+    margin-left: 60px;
+}
+
+.cardz-imgs {
+    display: flex;
+}
+
+.img-01 {
+    width: 150px;
+    height: 255px;
+    margin-top: 20px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+.img-02 {
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 7px;
+}
+
+.sec-section-pic {
+    display: flex;
+}
+
+.img-03 {
+    height: 80px;
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.my-class {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+@media only screen and (max-width: 768px) {
+    .my-btn-1 {
+        display: none;
+    }
+    .se-bar {
+        display: none;
+    }
+}
+
+.head-nft-sell {
+    color: white;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.sell-nft-1 {
+    width: 250px;
+    height: 170px;
+    background: #1c1832;
+    border-radius: 10px;
+    position: relative;
+}
+
+.go-step {
+    color: #6345ED;
+    text-transform: capitalize;
+    font-family: poppins;
+    /* font-weight: 600; */
+    /* padding-left: 10px; */
+    padding-top: 10px;
+}
+
+.sell-nft-1 {
+    margin-top: 30px;
+}
+
+.lil-cards-arr {
+    display: flex;
+}
+
+.my-lil-cards {
+    display: flex;
+}
+
+.nfts-1 {
+    width: 80px;
+    height: 70px;
+    margin-left: 80px;
+    margin-top: -30px;
+}
+
+.create-1 {
+    color: white;
+    font-family: poppins;
+    font-weight: 600;
+    position: absolute;
+}
+
+.wallet-1 {
+    color: white;
+    font-family: poppins;
+    font-size: 0.8rem;
+    font-weight: bold;
+    position: absolute;
+    padding-top: 8px;
+}
+
+.my-cards-arr {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+/* new section  */
+
+
+/* .content-wrapper-3 {
+    background: #070b24;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin-top: 20px;
+} */
+
+.update-cards {
+    width: 350px;
+    height: 450px;
+    background: url(./all-pics/news_thumb01.png);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 170px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.update-cards-1 {
+    width: 350px;
+    height: 450px;
+    background: url(./all-pics/news_thumb02.png);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 170px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.update-cards-2 {
+    width: 350px;
+    height: 450px;
+    background: url(./all-pics/news_thumb03.png);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 170px;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-no-1 {
+    width: 300px;
+    height: 230px;
+    background-color: #262142;
+    margin-top: 130px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+.log-icon {
+    color: #E039FD;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.dis-fl {
+    display: flex;
+    border-bottom: 2px solid #2F294A;
+    padding-top: 10px;
+}
+
+.admin {
+    color: white;
+    font-family: poppins;
+    padding-top: 7px;
+    padding-left: 10px;
+}
+
+.cale-icon {
+    color: #E039FD;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.off-cale {
+    color: white;
+    font-family: poppins;
+    padding-top: 7px;
+    padding-left: 10px;
+}
+
+.top-five-clr {
+    color: white;
+    font-family: poppins;
+    font-weight: 600;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 18px;
+}
+
+.btn-my {
+    margin-top: -7px;
+    margin-left: 15px;
+}
+
+.arr-all-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/* last section of cards started */
+
+
+/* .content-wrapper-0 {
+    background: url(images/070b24.png);
+    background-position: top cover;
+    background-size: cover;
+} */
+
+.last-card-1 {
+    width: 270px;
+    height: 170px;
+    background-color: #262142;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.style-icon {
+    margin-bottom: 20px;
+    color: white;
+    width: 51px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    border-radius: 50%;
+    background-image: linear-gradient(79deg, rgba(99, 69, 237, 1) 0%, rgba(224, 57, 253, 1) 100%);
+}
+
+.arr-download-icon {
+    margin-left: 30px;
+    margin-top: 30px;
+    position: absolute;
+}
+
+.free-style {
+    color: white;
+    font-weight: 600;
+    font-family: poppins;
+}
+
+.free {
+    margin-top: 90px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+.otd-style {
+    color: white;
+    font-family: poppins;
+    margin-top: 130px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+.my-anas {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.star-section {
+    margin-top: 130px;
+    /* margin-left: 40%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.para-style {
+    color: white;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.big-para {
+    margin-top: 20px;
+}
+
+.alex-style {
+    color: white;
+    font-family: poppins;
+    font-weight: 600;
+    text-align: center;
+}
+
+.Alex-head {
+    margin-top: 20px;
+}
+
+.review-style {
+    color: #E039FD;
+    font-weight: 600;
+    font-family: poppins;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.anch-dec {
+    text-decoration: none;
+}
+
+.see-rev {
+    margin-top: 10px;
+}
+
+.btn-01 {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: #f6f6f7;
+    margin-left: 25px;
+}
+
+.btn-01:hover {
+    background: #E039FD;
+    transition: 0.4s ease-in-out;
+}
+
+.indicator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+/* last section of cards ended*/
+
+
+/* footer started  */
+
+footer {
+    background-color: #131129;
+    padding-top: 70px;
+}
+
+.footer-para {
+    margin-top: 10px;
+}
+
+.footer-para-style {
+    color: #9d7da3;
+    font-family: poppins;
+}
+
+.social-icons ul li {
+    list-style: none;
+    padding: 0px 5px;
+}
+
+.social-icons ul {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: -38px;
+}
+
+.social-icons ul li a {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background: #28243F;
+    border-radius: 2px;
+    align-items: center;
+    justify-content: center;
+    color: #E5E5E5;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.link-style {
+    color: white;
+    font-family: poppins;
+    margin-top: 10px;
+}
+
+.list-link {
+    margin-top: 17px;
+}
+
+.list-link ul a {
+    text-decoration: none;
+}
+
+.list-link ul a li {
+    list-style: none;
+    color: #9d7da3;
+}
+
+.search-style {
+    background: #2F294A;
+    border-radius: 5px;
+    width: 180px;
+    height: 40px;
+    margin-top: 10px;
+    color: white;
+    border: 2px solid #9d7da3;
+}
+
+.search-style:hover {
+    border: 2px solid #E039FD;
+    transition: 0.4s ease-in-out;
+}
+
+.search-style::placeholder {
+    color: #9d7da3;
+    padding-left: 10px;
+}
+
+.subscriber {
+    display: inline-block;
+}
+
+.input-group .anas-btn {
+    height: 40px;
+    border: none;
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    margin-top: 10px;
+    color: #fff;
+    border-radius: 0px 4px 4px 0px;
+    background-image: linear-gradient(79deg, rgba(99, 69, 237, 1) 0%, rgba(224, 57, 253, 1) 100%);
+}
